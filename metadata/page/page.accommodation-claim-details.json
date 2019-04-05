@@ -1,0 +1,34 @@
+{
+  "_id": "page.accommodation-claim-details",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.accommodation-claim-details--fieldset",
+      "_type": "fieldset",
+      "components": [
+        {
+          "_id": "page.accommodation-claim-details--fieldset--date.auto_name__25",
+          "_type": "date",
+          "label": "Date",
+          "name": "auto_name__25"
+        },
+        {
+          "_id": "page.accommodation-claim-details--fieldset--number.auto_name__26",
+          "_type": "number",
+          "label": "Amount",
+          "name": "auto_name__26"
+        },
+        {
+          "_id": "page.accommodation-claim-details--fieldset--fileupload.auto_name__27",
+          "_type": "fileupload",
+          "label": "Attach receipt",
+          "name": "auto_name__27"
+        }
+      ],
+      "legend": "Accommodation details"
+    }
+  ],
+  "heading": "Accommodation you want to claim for",
+  "lede": "You can add multiple claims",
+  "url": "accommodation-claim-details"
+}

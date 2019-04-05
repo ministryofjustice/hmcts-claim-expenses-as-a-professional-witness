@@ -1,0 +1,32 @@
+{
+  "_id": "page.witness-allowance-claim",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.witness-allowance-claim--radios.auto_name__19",
+      "_isa": "radios.yes-no",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.witness-allowance-claim--radios.auto_name__19--radio.auto_value__1",
+          "_type": "radio",
+          "label": "Yes",
+          "value": "auto_value__1"
+        },
+        {
+          "_id": "page.witness-allowance-claim--radios.auto_name__19--radio.auto_value__2",
+          "_type": "radio",
+          "label": "No",
+          "value": "auto_value__2"
+        }
+      ],
+      "legend": "Do you want to claim for a witness allowance?",
+      "name": "auto_name__19"
+    }
+  ],
+  "enableSteps": true,
+  "steps": [
+    "page.away-from-home-or-business"
+  ],
+  "url": "witness-allowance-claim"
+}

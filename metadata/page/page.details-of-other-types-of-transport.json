@@ -1,0 +1,42 @@
+{
+  "_id": "page.details-of-other-types-of-transport",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.details-of-other-types-of-transport--fieldset",
+      "_type": "fieldset",
+      "components": [
+        {
+          "_id": "page.details-of-other-types-of-transport--fieldset--date.auto_name__16",
+          "_type": "date",
+          "label": "Date",
+          "name": "auto_name__16"
+        },
+        {
+          "_id": "page.details-of-other-types-of-transport--fieldset--number.auto_name__17",
+          "_type": "number",
+          "label": "Amount",
+          "name": "auto_name__17"
+        },
+        {
+          "_id": "page.details-of-other-types-of-transport--fieldset--fileupload.auto_name__18",
+          "_type": "fileupload",
+          "label": "Attach receipt",
+          "name": "auto_name__18"
+        }
+      ],
+      "legend": "Travel details",
+      "model": "model_auto__3",
+      "repeatable": true,
+      "repeatableMaximum": 10
+    }
+  ],
+  "heading": "Other types of transport you want to claim for",
+  "lede": "You can add multiple claims.",
+  "show": {
+    "identifier": "auto_name__15",
+    "operator": "is",
+    "value": "yes"
+  },
+  "url": "details-of-other-types-of-transport"
+}

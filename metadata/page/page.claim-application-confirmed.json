@@ -1,0 +1,6 @@
+{
+  "_id": "page.claim-application-confirmed",
+  "_type": "page.confirmation",
+  "heading": "Thanks for submitting your expenses",
+  "url": "claim-application-confirmed"
+}

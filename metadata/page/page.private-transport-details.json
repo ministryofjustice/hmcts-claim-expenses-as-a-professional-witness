@@ -9,25 +9,33 @@
         {
           "_id": "page.private-transport-details--fieldset--date.auto_name__7",
           "_type": "date",
+          "label": "Date",
           "name": "auto_name__7"
         },
         {
           "_id": "page.private-transport-details--fieldset--number.auto_name__13",
           "_type": "number",
+          "label": "Amount",
           "name": "auto_name__13"
         },
         {
           "_id": "page.private-transport-details--fieldset--fileupload.auto_name__14",
           "_type": "fileupload",
+          "label": "Attach receipt",
           "name": "auto_name__14"
         }
       ],
-      "legend": "Date",
+      "legend": "Travel details",
       "model": "model_auto__2",
       "repeatable": true
     }
   ],
-  "heading": "Details of private transport you want to claim for",
+  "heading": "Private transport you want to claim for",
   "lede": "You can add multiple claims.",
+  "show": {
+    "identifier": "auto_name__12",
+    "operator": "is",
+    "value": "yes"
+  },
   "url": "private-transport-details"
 }

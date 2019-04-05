@@ -10,7 +10,10 @@
           "_id": "page.public-transport-details--fieldset--date.auto_name__9",
           "_type": "date",
           "label": "Date",
-          "name": "auto_name__9"
+          "name": "auto_name__9",
+          "validation": {
+            "required": false
+          }
         },
         {
           "_id": "page.public-transport-details--fieldset--number.auto_name__10",
@@ -31,7 +34,12 @@
       "repeatableMaximum": 10
     }
   ],
-  "heading": "Details of public transport you want to claim for",
+  "heading": "Public transport you want to claim for",
   "lede": "You can add multiple claims",
+  "show": {
+    "identifier": "auto_name__8",
+    "operator": "is",
+    "value": "yes"
+  },
   "url": "public-transport-details"
 }

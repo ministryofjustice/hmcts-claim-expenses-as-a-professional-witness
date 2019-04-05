@@ -1,0 +1,31 @@
+{
+  "_id": "page.accommodation-claim",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.accommodation-claim--radios.auto_name__23",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.accommodation-claim--radios.auto_name__23--radio.auto_value__1",
+          "_type": "radio",
+          "label": "Yes",
+          "value": "auto_value__1"
+        },
+        {
+          "_id": "page.accommodation-claim--radios.auto_name__23--radio.auto_value__3",
+          "_type": "radio",
+          "label": "No",
+          "value": "auto_value__3"
+        }
+      ],
+      "legend": "Do you want to claim for accommodation?",
+      "name": "auto_name__23"
+    }
+  ],
+  "enableSteps": true,
+  "steps": [
+    "page.accommodation-claim-details"
+  ],
+  "url": "accommodation-claim"
+}

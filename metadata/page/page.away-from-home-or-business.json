@@ -1,0 +1,52 @@
+{
+  "_id": "page.away-from-home-or-business",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.away-from-home-or-business--fieldset",
+      "_type": "fieldset",
+      "components": [
+        {
+          "$component": true,
+          "$control": true,
+          "$definition": true,
+          "$field": true,
+          "_id": "page.away-from-home-or-business--fieldset--date.auto_name__20",
+          "_type": "date",
+          "label": "Date",
+          "name": "auto_name__20",
+          "validation": {
+            "required": false
+          }
+        },
+        {
+          "$component": true,
+          "$control": true,
+          "$definition": true,
+          "$field": true,
+          "_id": "page.away-from-home-or-business--fieldset--number.auto_name__21",
+          "_type": "number",
+          "label": "Number of hours you were away",
+          "name": "auto_name__21"
+        },
+        {
+          "_id": "page.away-from-home-or-business--fieldset--number.auto_name__22",
+          "_type": "number",
+          "label": "Amount claimed",
+          "name": "auto_name__22"
+        }
+      ],
+      "legend": "Absence details",
+      "model": "model_auto__4",
+      "repeatable": true,
+      "repeatableMaximum": 10
+    }
+  ],
+  "heading": "Dates and times you were away from your home or business",
+  "show": {
+    "identifier": "auto_name__19",
+    "operator": "is",
+    "value": "auto_value__1"
+  },
+  "url": "away-from-home-or-business"
+}

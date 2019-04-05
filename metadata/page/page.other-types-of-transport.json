@@ -1,0 +1,18 @@
+{
+  "_id": "page.other-types-of-transport",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.other-types-of-transport--radios.auto_name__15",
+      "_isa": "radios.yes-no",
+      "_type": "radios",
+      "legend": "Did you take other types of transport?",
+      "name": "auto_name__15"
+    }
+  ],
+  "enableSteps": true,
+  "steps": [
+    "page.details-of-other-types-of-transport"
+  ],
+  "url": "other-types-of-transport"
+}

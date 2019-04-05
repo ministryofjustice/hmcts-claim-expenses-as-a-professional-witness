@@ -7,7 +7,12 @@
     "page.professional-witness-details",
     "page.claim-for-travel-costs",
     "page.public-transport",
-    "page.private-transport"
+    "page.private-transport",
+    "page.other-types-of-transport",
+    "page.witness-allowance-claim",
+    "page.accommodation-claim",
+    "page.check-answers",
+    "page.claim-application-confirmed"
   ],
   "url": "/"
 }
