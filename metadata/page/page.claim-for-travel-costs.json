@@ -1,0 +1,14 @@
+{
+  "_id": "page.claim-for-travel-costs",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.claim-for-travel-costs--radios.auto_name__7",
+      "_isa": "radios.yes-no",
+      "_type": "radios",
+      "legend": "Do you want to claim for travel costs?",
+      "name": "travel_costs"
+    }
+  ],
+  "url": "claim-for-travel-costs"
+}

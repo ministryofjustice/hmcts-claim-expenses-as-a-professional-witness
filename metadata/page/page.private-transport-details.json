@@ -1,0 +1,33 @@
+{
+  "_id": "page.private-transport-details",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.private-transport-details--fieldset",
+      "_type": "fieldset",
+      "components": [
+        {
+          "_id": "page.private-transport-details--fieldset--date.auto_name__7",
+          "_type": "date",
+          "name": "auto_name__7"
+        },
+        {
+          "_id": "page.private-transport-details--fieldset--number.auto_name__13",
+          "_type": "number",
+          "name": "auto_name__13"
+        },
+        {
+          "_id": "page.private-transport-details--fieldset--fileupload.auto_name__14",
+          "_type": "fileupload",
+          "name": "auto_name__14"
+        }
+      ],
+      "legend": "Date",
+      "model": "model_auto__2",
+      "repeatable": true
+    }
+  ],
+  "heading": "Details of private transport you want to claim for",
+  "lede": "You can add multiple claims.",
+  "url": "private-transport-details"
+}
