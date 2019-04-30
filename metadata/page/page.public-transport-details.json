@@ -29,7 +29,7 @@
         }
       ],
       "legend": "Travel details",
-      "model": "model_auto__1",
+      "namespace": "namespace_auto__1",
       "repeatable": true,
       "repeatableMaximum": 10
     }

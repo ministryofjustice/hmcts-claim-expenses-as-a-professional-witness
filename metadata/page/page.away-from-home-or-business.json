@@ -37,7 +37,7 @@
         }
       ],
       "legend": "Absence details",
-      "model": "model_auto__4",
+      "namespace": "namespace_auto__4",
       "repeatable": true,
       "repeatableMaximum": 10
     }
